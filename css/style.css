@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Karla:400,700);
+
+/* #preloader {
+    height: 0px;
+    display: inline;
+    } */
+
+body {
+    margin: 0;
+	padding: 0;
+	background-color:black;
+	font-family: 'Karla', sans-serif;
+    color: #333;
+    }
+    
+    body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.9);
+    }
+    /* Add a thumb */
+    body::-webkit-scrollbar-thumb {
+        background: rgba(250, 250, 250, 0.5);
+    }
+    
+    body, html {
+    height: 16px;
+    min-height: 100%;
+    overflow-x: hidden;
+    }
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5%;
+}
+#panorama {
+    width: 1280px;
+    height: 720px;
+}
+.pnlm-load-box {
+    z-index:-999;
+    opacity: 0;
+ }
